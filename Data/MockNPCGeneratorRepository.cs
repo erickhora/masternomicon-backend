@@ -25,8 +25,8 @@ namespace MasternomiconBackend.Data
             throw new NotImplementedException();
         }
 
-        //TODO: UpdateNPCByParameter should update according to parameter that user wants to change and should not save.
-        public NPC UpdateNPCByParameter(int id)
+        //TODO: InsertNPC in v1 is admin access only.
+        public NPC InsertNPC()
         {
             throw new NotImplementedException();
         }

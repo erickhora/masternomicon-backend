@@ -10,8 +10,8 @@ namespace MasternomiconBackend.Data
 
         NPC GetNPCById(int id);
 
-        NPC UpdateNPCByParameter(int id);
-
         NPC DeleteNPCById(int id);
+
+        NPC InsertNPC();
     }
 }
